@@ -9,7 +9,10 @@
                 <h5>Titolo originale: {{ $movie->original_title }} </h5>
                 <h6>Nazionalità: {{ $movie->nationality }}</h6>
                 <h6>Del: {{ $movie->date }} </h6>
-                <span>Voto: {{ $movie->vote }}</span>
+                <p>Voto: {{ $movie->vote }}</p>
+                <a href="{{ route('home') }}">
+                    <strong>
+                        <--Torna alla Home</strong></a>
             </div>
         </div>
     </div>
